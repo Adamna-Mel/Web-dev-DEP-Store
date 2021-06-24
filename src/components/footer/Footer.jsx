@@ -1,11 +1,10 @@
 import React from 'react';
+import './Footer.css';
 
 const Footer = () => {
     return (
         <div className="Footer">
-            <div>
-                <h4>© Todos os diretos são reservados a DEP Store enterprise</h4>
-            </div>
+            <h4>© Todos os diretos são reservados a DEP Store enterprise</h4>
         </div>
     )
 }
